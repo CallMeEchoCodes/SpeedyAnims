@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>items</key>
+		<array>
+			<dict>
+				<key>cell</key>
+				<string>PSGroupCell</string>
+				<key>label</key>
+				<string>Speed multiplier</string>
+			</dict>
+			<dict>
+				<key>cell</key>
+				<string>PSSliderCell</string>
+				<key>default</key>
+				<integer>1</integer>
+				<key>defaults</key>
+				<string>dev.callmeecho.speedyanims.preferences</string>
+				<key>key</key>
+				<string>speed</string>
+				<key>min</key>
+				<integer>1</integer>
+				<key>max</key>
+				<integer>5</integer>
+				<key>isSegmented</key>
+				<true />
+				<key>showValue</key>
+				<true />
+
+				<key>PostNotification</key>
+				<string>dev.callmeecho.speedyanims.preferences/reload</string>
+			</dict>
+
+			<dict>
+				<key>cell</key>
+				<string>PSGroupCell</string>
+				<key>footerText</key>
+				<string>Made with ❤️ by Echo</string>
+				<key>footerAlignment</key>
+				<real>1</real>
+			</dict>
+		</array>
+		<key>title</key>
+		<string>SpeedyAnims</string>
+	</dict>
+</plist>
